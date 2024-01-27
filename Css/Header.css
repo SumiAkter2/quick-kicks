@@ -129,10 +129,10 @@ ul{
     margin-top: 50px;
 
 }
-.left-section{
+/* .left-section{
     width: 100%;
     
-}
+} */
 .right-section{
     padding: 10px;
     
@@ -160,6 +160,7 @@ ul{
     align-items: start;
     gap: 10px;
     margin-top: 50px;
+    
 }
 .right-section{
     padding: 0 30px;
