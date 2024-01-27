@@ -1,0 +1,17 @@
+.category-banner-section{
+     background-image: url('../images/cb.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+    height: 500px;
+    border-radius: 5px;
+  
+}
+.category-banner-section .banner-content{
+  color: #000;
+}
+/* img section */
+.category-img-container{
+    
+}
