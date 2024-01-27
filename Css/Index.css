@@ -82,7 +82,31 @@ transition: 0.3s;
     height: 150px;
     border-radius: 100%;
 }
-
+/* offer-content */
+.offer-section{
+    border: 1px solid orange;
+    padding: 20px;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+.offer-section h1{
+    padding: 0;
+}
+.offer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    height: 400px;
+    margin: 20px 0;
+}
+.offer-content p{
+    padding: 5px;
+}
+.offer-content img{
+    height: 400px;
+    border-radius: 10px;
+}
 /* social logo */
 .social-logo{
     font-size: 25px;
