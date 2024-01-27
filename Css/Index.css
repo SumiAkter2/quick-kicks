@@ -42,7 +42,12 @@
  box-shadow: inset  0px 0px 50px orange;
 }
 
-
+/* social logo */
+.social-logo{
+    font-size: 25px;
+    padding-top: 10px;
+    position: static;
+}
 @media (max-width: 560px){
 
     .banner-section,.banner-content{
