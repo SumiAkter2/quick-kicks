@@ -1,5 +1,5 @@
 .product-banner-section{
-     background-image: url('../images/b8.jpg');
+    background-image: url('../images/b8.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +10,12 @@
 }
 .product-banner-section .banner-content{
   text-align: center;
+}
+.product-img-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
 }
 .product-img-container img{
 width: 150px;
@@ -48,4 +54,23 @@ border-radius: 5px;
 
 .fa-star{
     color: orange;
+}
+
+@media (max-width: 560px){
+    .product-detail{
+        display: grid;
+    }
+    .product-detail img{
+        width: 300px;
+    }
+
+    .product-img-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    
 }

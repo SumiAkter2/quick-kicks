@@ -151,6 +151,23 @@ ul{
 .container-content{
     padding: 0 30px;
 }
+/* common section
+} */
+.common-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+    margin-top: 50px;
+}
+.right-section{
+    padding: 0 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
 }
 @media (min-width: 768px) {
     .nav{
