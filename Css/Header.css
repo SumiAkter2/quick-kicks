@@ -43,8 +43,8 @@ ul {
     background-color: #fff;
     position: sticky;
     top: 0;
+    z-index: 10;
     /* width: 100%; */
-    /* background: rgba(183, 183, 183, 0.388); */
     height: 100px;
     padding-top: 10px;
 }
@@ -148,20 +148,22 @@ ul {
 
 /* common section */
 .common-section {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: start;
     gap: 10px;
     margin-top: 50px;
 
+
 }
 
-/* .left-section{
-    width: 100%;
-    
-} */
+
 .right-section {
     padding: 10px;
+    position: sticky;
+    right: 100px;
+    top: 200px;
 
 }
 
