@@ -117,11 +117,11 @@ ul {
 }
 
 .hamb-line::before {
-    top: 5px;
+    top: 8px;
 }
 
 .hamb-line::after {
-    top: -5px;
+    top: -8px;
 }
 
 .side-menu {
